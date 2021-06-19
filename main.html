@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./password.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2e1333ca84.js" crossorigin="anonymous"></script>
+    <title>Password generator</title>
+</head>
+<body>
+    <main>
+        <div id="particle-container">
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+        </div>
+        <div class="container">
+            <div class="text">Random Password Generator</div>
+
+            <input type="text" id="password" class="inputText" placeholder="Best Random Password" >
+            <button class="refreshIcon"><img src="assets/icons8-refresh-25.png" id="Icon" class="Icon"></button>
+            <button class="copy" id="copy">Copy</button>
+
+            <div class="slidecontainer">
+                <p>Password length: <span id="demo"></span></p>
+                <input type="range" min="1" max="50" value="25" class="slider" id="myRange">
+            </div>
+            <div id="random-password" class="randomPassword">
+                <p>Characters used:</p>
+
+                <div id="settings" class="settings">
+
+                    <div class="checkbox">
+                        <input type="checkbox" id="Big" class="checkboxInput" />
+                        <label for="Big" class="checkmark">ABC</label>
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" id="Small" class="checkboxInput" />
+                        <label for="Small" class="checkmark">abc</label>
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" id="numbers" class="checkboxInput" />
+                        <label for="numbers" class="checkmark">123</label>
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" id="symbols" class="checkboxInput" />
+                        <label for="symbols" class="checkmark">#$&</label>
+                    </div>
+
+                </div>
+
+            </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
